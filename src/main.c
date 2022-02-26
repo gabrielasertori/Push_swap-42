@@ -6,18 +6,17 @@
 /*   By: gcosta-d <gcosta-d@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 01:04:07 by gcosta-d          #+#    #+#             */
-/*   Updated: 2022/02/26 16:35:22 by gcosta-d         ###   ########.fr       */
+/*   Updated: 2022/02/26 16:55:16 by gcosta-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/push_swap.h"
 
-int	main(int argc, char *argv)
+int	main(int argc, char *argv[])
 {
-	int	*arr1;
+	t_data data;
 
-	arr1 = (int)malloc(6 * sizeof(int));
-
+	if (check(&data, argc, argv))
 
 	return (0);
 }
