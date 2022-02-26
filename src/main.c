@@ -6,22 +6,18 @@
 /*   By: gcosta-d <gcosta-d@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 01:04:07 by gcosta-d          #+#    #+#             */
-/*   Updated: 2022/02/26 01:04:07 by gcosta-d         ###   ########.fr       */
+/*   Updated: 2022/02/26 16:35:22 by gcosta-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
+#include "../include/push_swap.h"
 
-int main (int argc, char *argv)
+int	main(int argc, char *argv)
 {
-    int *arr;
+	int	*arr1;
 
-    arr = malloc
-
-    arr = [2, 1, 3, 6, 5, 8];
+	arr1 = (int)malloc(6 * sizeof(int));
 
 
-
-    return (0);
+	return (0);
 }
